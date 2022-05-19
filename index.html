@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Food<span>.</span></a>
+        <ul class="navigation">
+            <li><a href="#banner">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#expert">Expert</a></li>
+            <li><a href="#testimonials">Testimonios</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>Elegí Siempre Bien</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi voluptatum tempora eos, soluta laudantium nam autem iure nisi magnam earum cum inventore, voluptates molestias iste aliquid voluptate incidunt laboriosam totam!</p>
+            <a href="#" class="btn">Nuestro Menu</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2 class="tittleText"><span>A</span>cerca de Nosotros</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt soluta architecto reiciendis eos debitis, minus expedita placeat aliquid inventore quod officiis sequi quaerat animi commodi cum voluptates earum natus deserunt quae dolorem, possimus eius sed quisquam? Veniam at perspiciatis vitae.<br><br>
+                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi quod doloribus doloremque quo culpa alias expedita consectetur natus incidunt ut, ex suscipit possimus optio aut! Vero sit quisquam enim maxime!
+                </p>
+            </div>
+            <div class="col50">
+                <div class="imgBx">
+                    <img src="./images/img1.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="menu" id="menu">
+        <div class="tittle">
+            <h2 class="tittleText">Nuestro <span>M</span>enu</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./images/menu1.jpg">
+                </div>
+                <div class="text">
+                    <h3>Ensalada Especial</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./images/menu2.jpg">
+                </div>
+                <div class="text">
+                    <h3>Sopa Especial</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./images/menu3.jpg">
+                </div>
+                <div class="text">
+                    <h3>Pasta Especial</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./images/menu4.jpg">
+                </div>
+                <div class="text">
+                    <h3>Ensalada Especial</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./images/menu5.jpg">
+                </div>
+                <div class="text">
+                    <h3>Sopa Especial</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./images/menu6.jpg">
+                </div>
+                <div class="text">
+                    <h3>Pasta Especial</h3>
+                </div>
+            </div>
+            <div class="tittle">
+                <a href="#" class="btn">Ver Todos</a>
+            </div>
+        </div>
+    </section>
+    <section class="expert" id="expert">
+        <div class="tittle">
+            <h2 class="tittleText">Nuestros <span>E</span>xpertos en la cocina</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./images/expert1.jpg">
+                </div>
+                <div class="text">
+                    <h3>Alguien Famoso</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./images/expert2.jpg">
+                </div>
+                <div class="text">
+                    <h3>Alguien Famoso</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./images/expert3.jpg">
+                </div>
+                <div class="text">
+                    <h3>Alguien Famoso</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./images/expert4.jpg">
+                </div>
+                <div class="text">
+                    <h3>Alguien Famoso</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials" id="testimonials">
+        <div class="tittle">
+            <h2 class="tittleText">Nuestros <span>E</span>xpertos en la cocina</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div>
+    </section>
+
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            const header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+    </script>
+</body>
+</html>
